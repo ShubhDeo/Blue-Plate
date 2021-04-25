@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blue Plate</title>
+  <meta charset="utf-8">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+
+  <!-- MAP -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBvNouAlFElDeV_qqY1tPasnpZtrpYRWCk&callback=initMap&libraries=&v=weekly" defer></script>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="banner">
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="#">
+        <h2 class="logo"></h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-3">
+            <a class="nav-link " href="#">
+              <h4 class="list">HOME</h4>
+            </a>
+          </li>
+          <form action="/" method="post">
+            <button type="submit" name="button" value="gallery">
+              <li class="nav-item mx-3">
+                  <a class="nav-link ">
+                    <h4 class="list">GALLERY</h4>
+                  </a>
+              </li>
+            </button>
+        </form>
+          <form action="/" method="post">
+            <button type="submit" name="button" value="drinks-menu">
+              <li class="nav-item mx-3">
+                  <a class="nav-link ">
+                    <h4 class="list">MENU</h4>
+                  </a>
+              </li>
+            </button>
+        </form>
+          <li class="nav-item mx-3">
+            <a class="nav-link " href="#press">
+              <h4 class="list">PRESS</h4>
+            </a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link " href="#contact">
+              <h4 class="list">CONTACT</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="center">
+      <h1 class="heading">Blue Plate</h1>
+         <form  action="/" method="POST">
+            <button type="submit" class="button" name = "button" value="reservation">Make a Reservation.</button>
+         </form>
+    </div>
+
+    <div class="indicator">
+      <a href="#about" style="text-decoration: none;" id="indicator">
+        <span id="first"></span>
+        <span id="second"></span>
+        <span id="third"></span>
+      </a>
+    </div>
+  </section>
+
+  <div class="black"></div>
+
+  <section id="about">
+    <div class="container px-3 pb-3" style="background-color: #f3e1e1; border-radius: 15px;">
+      <h1>About Us</h1>
+      <div class="row">
+        <div class="col-xl-6">
+          <img src="https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="restaurant-img">
+        </div>
+        <div class="col-xl-6 column-2" style="padding: 0 5% 5% 5%;">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non. Senectus et netus et malesuada fames.
+            Orci ac auctor augue
+            mauris augue neque. Pellentesque id nibh tortor id aliquet lectus. Fringilla est ullamcorper eget nulla.
+            Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Viverra suspendisse potenti nullam
+            ac. At erat pellentesque
+            adipiscing commodo elit at. Amet mauris commodo quis imperdiet massa. Proin fermentum leo vel orci porta non
+            pulvinar neque. Egestas congue quisque egestas diam in arcu cursus. Magna etiam tempor orci eu. Vitae nunc
+            sed velit dignissim
+            sodales ut eu sem integer. Aliquam nulla facilisi cras fermentum odio eu.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="details">
+    <div class=" container py-5 mb-5">
+      <div class="row">
+        <div class="col-md-6 sub-img">
+          <img style="border-radius: 100%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHE8eZMVxtOp8IGTrx6G8p9NNiZ0cML61DHA&usqp=CAU" alt="owner-img">
+        </div>
+        <div class="col-md-6">
+          <h3>Gordon Ramsey</h3>
+          <h4 id="designation" class="mb-2">Owner</h4>
+          <p class="column-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
+            lobortis. Imperdiet dui
+            accumsan sit amet nulla facilisi morbi tempus iaculis. Et malesuada fames ac turpis egestas maecenas. Nisl
+            nisi scelerisque eu ultrices vitae auctor eu augue.</p>
+        </div>
+      </div>
+      <div class="row py-3 mb-5">
+        <div class="col-md-6">
+          <h3>David Rocco</h3>
+          <h4 id="designation" class="mb-2">Executive Chef</h4>
+          <p class="column-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
+            lobortis. Imperdiet dui
+            accumsan sit amet nulla facilisi morbi tempus iaculis. Et malesuada fames ac turpis egestas maecenas. Nisl
+            nisi scelerisque eu ultrices vitae auctor eu augue.</p>
+        </div>
+        <div class="col-md-6 sub-img">
+          <img style="border-radius: 100%;"
+            src="data:image/jpeg;base64,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"
+            alt="chef-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="press">
+    <h1 class=" pb-3" style="text-align: center; color: #232d23c9;">Headlines</h1>
+    <div class="container-fluid px-5">
+      <div class="jumbotron p-4 p-md-5 bg-dark rounded text-white row">
+        <div class="col-md-6" style="color: #232d23c9;">
+          <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+          <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently
+            about what’s most interesting in this post’s contents.</p>
+          <p class="lead mb-0"><a href="#" class="text-secondary font-weight-bold">Continue reading...</a></p>
+        </div>
+
+      </div>
+
+      <div class="row my-5 px-5">
+        <div class="col-xl-4 col-lg-6 mb-3">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9QOakN-njn_ATq3CBwMpW-6NTtZPOAYviQg&usqp=CAU" alt="img-1" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title" style="color: black;">Susan Thye</h4>
+              <p class="card-text">"I had such an incredible meal at Blue Plate and seriously guys, it's such grat value! Impeccable food and such lovely warm and down to earth service, I can't wait to return!"</p>
+              <a href="#" class="btn ">Read Full Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 mb-3">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHTlCU6oFO9QSqNwR_LBLbhCxXoKZ5_Aj_eQ&usqp=CAU" alt="img-2" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title" style="color: black;">Jennifer Lam</h4>
+              <p class="card-text">"Blue Plate has built itself quite the reputation as an accessible neighbourhood restaurant, striking the perfect balance between elegance and simplicity."</p>
+              <a href="#" class="btn">Read Full Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 mb-3">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJa-CuTtGehuvfU0Zi5a3EAhORIxK2auHVcQ&usqp=CAU" alt="img-3" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title" style="color: black;">Gourmantic</h4>
+              <p class="card-text">The degustation at Blue Plate is a bargain. What David is serving up is well considered, quality Top 100-worthy food. It’s delicious, fresh seafood treated with the utmost respect. </p>
+
+              <a href="#" class="btn">Read Full Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" >
+    <div class="container-fluid pt-5 mb-5">
+      <div class="row">
+        <div class="col-xl-6 mb-5">
+          <div class="address">
+            <div class="hours pr-3">
+              <h4>Hours</h4>
+              <p>Weekdays 11am - 12am</p>
+              <p>Weekends 11am - 2am</p>
+            </div>
+            <div class="sub-contact pl-3">
+              <h4>Contact</h4>
+              <p>587-521-1911</p>
+              <p>info@blueplate.com</p>
+              <br>
+              <p>10363, 104th Street Edmonton</p>
+              <p>Alberta, Canada</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col-xl-5 social-media">
+          <div class="mb-5 logo">
+            <img src="insta-logo1.png" alt="instagram" class="">
+            <img src="fb-logo.png" alt="facebook" class="fb">
+          </div>
+
+          <div class="mapouter mb-5">
+            <div class="gmap_canvas"><iframe width="100%" height="250" id="gmap_canvas" src="https://maps.google.com/maps?ll=53.5459513,-113.4988987&q=10363 104 St NW&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"></iframe><a href="https://techwithlove.com/how-to-know-who-viewed-my-whatsapp-profile/">who viewed me</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="text-muted text-center text-small">
+    <p class="mb-1">© Blue Plate 2017 - Present</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

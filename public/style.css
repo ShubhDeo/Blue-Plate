@@ -1,0 +1,316 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+
+ button:focus {
+  border: none;
+  outline: none;
+}
+
+/* Banner Section */
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler-icon {
+   height: 4vh;
+   width: 4vw;
+}
+
+.black {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 10vh;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  z-index: 3;
+  bottom: 42vh;
+}
+
+.button {
+  border: 0;
+  background: hsl(202, 40%, 50%);
+  color: white;
+  height: auto;
+  width: auto;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  font-size: 2.7vh;
+  padding: 0.5% 4%;
+  margin-top: 5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: inherit;
+}
+
+.button:active {
+  color: black;
+}
+
+.indicator span {
+  height: 20px;
+  width: 20px;
+  display: block;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  transform: rotate(45deg);
+  animation: animate 1.5s ease infinite;
+}
+
+#first {
+  animation-delay: 0;
+}
+
+#second {
+  animation-delay: 0.5s;
+}
+
+#third {
+  animation-delay: 1s;
+}
+
+.indicator {
+  position: absolute;
+  z-index: 2;
+  bottom: 5vh;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.navbar {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2%;
+}
+
+.list {
+  font-size: 18px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+
+.list:hover {
+  color: hsl(202, 55%, 64%);
+}
+
+/* About Us Section */
+
+#about {
+  text-align: center;
+  padding: 5% 0;
+}
+
+#about h1 {
+
+  font-size: 600%;
+  font-family: "Tangerine", cursive;
+}
+
+.column-2 {
+  font-weight: 300;
+  font-size: 135%;
+  text-align: justify;
+}
+
+#about img {
+  width: 450px;
+  height: inherit;
+  border-radius: 15px;
+}
+
+/* DETAILS */
+#details .container {
+  background-color: #dddddd;
+  border-radius: 15px;
+}
+
+#designation {
+  color: black;
+}
+
+#details h3 {
+  font-family: "Tangerine", cursive;
+  font-size: 400%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sub-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details h4 {
+  font-weight: 900;
+  font-size: 170%;
+  color: grey;
+  text-align: center;
+}
+
+#details .sub-about {
+  background-color: #cff6cf;
+}
+
+/* PRESS SECTION */
+#press h1 {
+  font-size: 400%;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+#press {
+  margin: 0 5%;
+  background-color: #f2ed6f;
+  border-radius: 10px;
+}
+
+#press .jumbotron {
+  /* background-image: url(https://www.lightstalking.com/wp-content/uploads/bake-baked-bakery-1028714.jpg); */
+  background-image: url(https://img-a.udemycdn.com/course/750x422/870230_2894.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#press .card {
+    /* background-color: #dddddd; */
+    background-color: #f4f4f4;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#press .btn {
+  background-color: #649d66;
+  color: white;
+}
+
+
+/* CONTACT */
+#contact {
+  padding: 0 13%;
+  background-color: #ffa931;
+  border-radius: 20px;
+}
+
+.logo img {
+  height: 100%;
+  width: 40%;
+  margin: 0 2%;
+}
+
+#contact .address {
+  background-color: #cd492f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.hours, .sub-contact {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  height: 50%;
+  width: 45%;
+  overflow: inherit;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 250px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 250px;
+  width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .column-2 {
+    margin-top: 5%;
+  }
+
+  #contact .address {
+    height: 450px;
+  }
+}
+
+@media (max-width: 1400px) {
+  #press .jumbotron {
+    background-attachment: inherit;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .list {
+      line-height: 2.5;
+      font-size: 25px;
+  }
+}

@@ -1,0 +1,145 @@
+
+.master-page,footer,.gallery {
+  background-color: #092532;
+  color: #BEAC74;
+  font-family: 'Alef', sans-serif;
+}
+
+.four-links button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: #BEAC74;
+}
+
+
+.four-links button:focus {
+  border: none;
+  outline: none;
+}
+
+.four-links button:hover {
+    color: white;
+}
+
+.four-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 300%;
+  color: #BEAC74;
+  text-align: center;
+  cursor: pointer;
+}
+
+.logo h1:hover {
+  color: white;
+}
+
+.nav-link {
+  color: #BEAC74;
+  padding-top: 20px;
+}
+
+.active,h1,h5,h2 {
+  color: white;
+}
+
+.column,.mailing h4 {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Alef', sans-serif;
+}
+
+
+.heading, .sub-header {
+  text-align: center;
+  padding: 7% 0 2% 0;
+}
+
+
+.column {
+  height: 200px;
+}
+
+
+.mailing {
+  padding: 5% 0;
+}
+
+.mailing .btn {
+  border-radius: 0;
+  width: 120px;
+  background-color: #BEAC74;
+}
+
+
+
+
+/* PHOTO GALLERY */
+
+.jumbotron {
+  height: 42vh;
+  background-image: url(gallery.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: inherit;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 350%;
+  font-weight: lighter;
+  /* font-family: 'Lora', serif; */
+  font-family: 'Sora', sans-serif;
+
+}
+
+.jumbotron p {
+    font-family: 'Sora', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 1.125rem;
+    padding: 2%;
+
+}
+
+i {
+  color: White;
+  font-size: 40px;
+  margin: 0 3%;
+}
+
+i:hover {
+  color:  #BEAC74;
+}
+
+
+.photo-gallery {
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: space-between;
+   text-align: center;
+   grid-row-gap: 40px;
+   padding:5% 10%;
+}
+
+.photo-gallery img {
+   width: 90%;
+   margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .photo-gallery {
+    grid-template-columns:auto;
+  }
+}
